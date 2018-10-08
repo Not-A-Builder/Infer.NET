@@ -203,7 +203,7 @@ of `<filter>`. The former selects tests of
 the given category, while the latter selects test that don't belong to the given
 category. These can be combined: several `-trait` options mean that _at least one_ of the listed traits has to be present, while several `-notrait` options mean that _none_ of such traits can be present on the filtered tests.
 
-Runner executes tests in parallel by default. However, some test category must be run
+The Runner executes tests in parallel by default. However, some test category must be run
 sequentially. Such categories are:
 - _Performance_
 - _DistributedTest_
